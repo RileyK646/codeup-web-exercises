@@ -119,5 +119,10 @@ alert("You should tip: " + calculateTip(.20,20))
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
 function applyDiscount(price,discount) {
+        var total = 200
+        var discount = .4
+
+             return total * discount
 
 }
+console.log(applyDiscount())
