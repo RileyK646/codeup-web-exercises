@@ -33,6 +33,7 @@ function showMultiplicationTable(input){
 ...*/
 
 
+/*
 
     for(let i = 0; i < 10; i++) {
         let randNum = Math.floor(Math.random() * 200)+ 20;
@@ -43,6 +44,7 @@ function showMultiplicationTable(input){
                 console.log(randNum + " is odd")
             }
     }
+*/
 
 /*
 Create a for loop that uses console.log to create the output shown below.
@@ -58,6 +60,42 @@ Create a for loop that uses console.log to create the output shown below.
 88888888
 999999999
 */
- for (let i = 0; i < 10; i++) {
-     console.log(i)
- }
+
+let n = 9;
+let string = "";
+for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+        string += i;
+    }
+    string += "\n";
+}
+console.log(string);
+/*
+
+Create a for loop that uses console.log to create the output shown below.
+
+
+100
+95
+90
+85
+80
+75
+70
+65
+60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5*/
+
+for (let i = 100; i > 5; i-5) {
+        console.log()
+
