@@ -157,16 +157,12 @@ console.log(calculateTotal(2,200))
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
-/*
 var luckyNumber = Math.floor(Math.random() * 6);
-*/
 
-/*
 var billTotal = prompt("What is your bill total?")
 alert("You're lucky number is " + luckyNumber )
 alert("Your bill amount is " + billTotal)
 alert("Your price after discount is " + calculateTotal(luckyNumber,billTotal))
-*/
 /**
  * TODO:
  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
