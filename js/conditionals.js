@@ -41,15 +41,17 @@
 // - `randomColor`: contains a single random color value from the list (this
 //                  will contain a different color every time the page loads)
 */
+/*
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 var randomColor = colors[Math.floor(Math.random() * colors.length)];
+*/
 
 /**
  * TODO:
  * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
  * You should see a different message every time you refresh the page
  */
-/* console.log(analyzeColor(randomColor))
+ /* console.log(analyzeColor(randomColor))
 /**
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
@@ -121,7 +123,9 @@ analyzeColor(randomColor)*/
  *
  */
 
-/*function calculateTotal(luckynum, total) {
+/*
+
+function calculateTotal(luckynum, total) {
     if (luckynum == 5) {
         return total - total
     }
@@ -141,7 +145,9 @@ analyzeColor(randomColor)*/
         return total
     }
 }
-console.log(calculateTotal(2,200))*/
+console.log(calculateTotal(2,200))
+*/
+
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -151,9 +157,16 @@ console.log(calculateTotal(2,200))*/
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
+/*
 var luckyNumber = Math.floor(Math.random() * 6);
-/*var billTotal = prompt("What is your bill total?")
-alert(calculateTotal(luckyNumber, billTotal))*/
+*/
+
+/*
+var billTotal = prompt("What is your bill total?")
+alert("You're lucky number is " + luckyNumber )
+alert("Your bill amount is " + billTotal)
+alert("Your price after discount is " + calculateTotal(luckyNumber,billTotal))
+*/
 /**
  * TODO:
  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
@@ -172,50 +185,41 @@ alert(calculateTotal(luckyNumber, billTotal))*/
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
+
+/*
 function numberInput() {
     let YorN = confirm("Would you like to enter a number?");
 
     if (YorN) {
-          let userNum = prompt("Please enter your number")
-                if (userNum % 2 === 0) {
-                    let plus = parseFloat(userNum + 100);
-
-                    let NegorPos = userNum >= 0
-
-                    alert("this is divisible by two, is " + NegorPos +  " and is " + plus + " when 100 is added." )
-                }
-                else {
-                    alert("This number is not divisible by two")
-                }
+          let userNum = parseFloat(prompt("Please enter your number"))
+                let plus = 100 + userNum;
+                let NegOrPos = (userNum >= 0) ? "positive" : "negative";
+                        if (userNum % 2 === 0) {
+                            alert("this is even, is " + NegOrPos +  " and is " + plus + " when 100 is added." )
+                        }
+                        else {
+                            alert("this is odd, is " + NegOrPos +  " and is " + plus + " when 100 is added.")
+                        }
 
     }
 
     else {
-        alert ("This is else")
+        alert ("You chose not to enter a number")
     }
 
 }
-
-/*    switch (YorN) {
-        case true:
-           let userNum = prompt("Please enter your number:")
-                    if (userNum % 2 === 0) {
-                        return true
-                    }
-                    else
-                break;
-        default :
-            alert("You pressed cancel")
-                break;
-            }
-}*/
 console.log(numberInput())
 
-/*
-let userNumber = prompt("Please enter the number");
-let isEvenOdd = userNumber % 2 === 0;
-console.log(isEvenOdd);
-break;
+*/
+function isBoolean(input) {
+    if(input === true || input === false) {
 
-   alert("goodbye");
- break;*/
+        return true
+    }
+    else {
+        console.log(typeof input)
+        return false
+    }
+}
+console.log(isBoolean(false))
+
