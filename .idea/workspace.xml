@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/break_and_continue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/while.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/loops.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/loops.html" afterDir="false" />
     </list>
@@ -27,7 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ERoi2cbp61ZHMtFb6PtVG3HrCx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +66,7 @@
       <workItem from="1662997620294" duration="343000" />
       <workItem from="1663007546903" duration="14028000" />
       <workItem from="1663094878745" duration="8873000" />
-      <workItem from="1663353695637" duration="10743000" />
+      <workItem from="1663353695637" duration="14522000" />
     </task>
     <servers />
   </component>
