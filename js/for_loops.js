@@ -61,7 +61,7 @@ Create a for loop that uses console.log to create the output shown below.
 999999999
 */
 
-let n = 9;
+/*let n = 9;
 let string = "";
 for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
@@ -69,7 +69,7 @@ for (let i = 1; i <= n; i++) {
     }
     string += "\n";
 }
-console.log(string);
+console.log(string);*/
 /*
 
 Create a for loop that uses console.log to create the output shown below.
@@ -95,7 +95,9 @@ Create a for loop that uses console.log to create the output shown below.
 15
 10
 5*/
+/*
 
-for (let i = 100; i > 5; i-5) {
-        console.log()
-
+for (let i = 100; i > 0; i-=5){
+    console.log(i)
+    }
+*/
