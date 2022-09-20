@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/html/planets-js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/planets-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/split-join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/planets.string.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/while.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/while.js" afterDir="false" />
     </list>
@@ -67,7 +67,7 @@
       <workItem from="1662997620294" duration="343000" />
       <workItem from="1663007546903" duration="14028000" />
       <workItem from="1663094878745" duration="8873000" />
-      <workItem from="1663353695637" duration="17310000" />
+      <workItem from="1663353695637" duration="20020000" />
     </task>
     <servers />
   </component>

@@ -54,19 +54,20 @@ code should run as
  */
 let allCones = Math.floor(Math.random() * 50) + 50;
 
-let conesBought = Math.floor(Math.random() * 5) + 1;
+/*let conesBought = Math.floor(Math.random() * 5) + 1;*/
 
 
 do {
-        if (allCones > 0){
-            console.log("There are enough cones left ")
-            return {
-                allCones - conesBought
-            };
-        }
+        console.log("Icecream store!")
+        let conesSold = Math.floor(Math.random() * 5) + 1;
 
-        alert(conesBought + " cones sold");
-        console.log(conesleft)
+        console.log("Excellent you want " + conesSold + " - I have " + allCones + " left, let me get that for you" );
+            if(conesSold > allCones) {
+                console.log("I dont have enough cones")
+                continue;
+            }
 
+        allCones -= conesSold
+        console.log("You bought " + conesSold + " , now i have " + allCones)
 
-} while (  0 < conesleft);
+} while (  allCones > 0);
