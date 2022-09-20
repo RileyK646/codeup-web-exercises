@@ -55,8 +55,18 @@ code should run as
 let allCones = Math.floor(Math.random() * 50) + 50;
 
 let conesBought = Math.floor(Math.random() * 5) + 1;
-let conesleft = console.log(allCones - conesBought)
+
 
 do {
+        if (allCones > 0){
+            console.log("There are enough cones left ")
+            return {
+                allCones - conesBought
+            };
+        }
 
-} while (conesleft > 0);
+        alert(conesBought + " cones sold");
+        console.log(conesleft)
+
+
+} while (  0 < conesleft);
