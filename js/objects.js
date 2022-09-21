@@ -59,17 +59,18 @@
 
      */
 
-
+/*
      var shoppers = [
          {name: 'Cameron', amount: 180},
          {name: 'Ryan', amount: 250},
          {name: 'George', amount: 320}
     ];
+     */
 /*
 
     console.log(shoppers[1]);
 */
-
+/*
     shoppers.forEach(function ({name,amount}) {
         console.log(name + "'s total was $" + amount)
                 if (amount > 200) {
@@ -82,6 +83,7 @@
 
     }
 )
+    */
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
@@ -94,6 +96,49 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+        var books = [
+        {
+            title: "Eragon",
+            author: {
+                firstName:"Christopher",
+                 lastName:"Paolini"
+            }
+
+
+        },
+        {
+            title: "Enders Game",
+            author: {
+                firstName:"Orson",
+                lastName:"Scott Card"
+            }
+
+        },
+        {
+            title: "To Sleep in a Sea of Stars",
+            author: {
+                firstName:"Christopher",
+                lastName:"Paolini"
+            }
+
+        },
+        {
+            title: "I am Legend",
+            author: {
+                firstName:"Richard",
+                lastName:"Matheson"
+            }
+
+        },
+        {
+            title: "Shift",
+            author: {
+                firstName:"Hugh",
+                lastName:"Howell"
+            }
+
+        }
+    ]
 
     /**
      * TODO:
@@ -119,7 +164,17 @@
      *      ---
      *      ...
      */
+    books.forEach(function ({title,author}, index) {
+            console.log("Book #" + (index + 1));
 
+            console.log("Title: " +title)
+            console.log("Author: " + author.firstName + " " + author.lastName );
+            console.log("------------------")
+
+
+
+        }
+    )
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
