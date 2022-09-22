@@ -58,6 +58,8 @@ console.log(lowHigh([25, 2, 99, 2222, 209]));
 
 /*
 2. Write a function that returns the reading status of each of the following books:
+
+ */
 var library = [
     {
         author: 'Bill Gates',
@@ -74,4 +76,8 @@ var library = [
         title:  'Mockingjay: The Final Book of The Hunger Games',
         readingStatus: false
     }];
- */
+    library.forEach(function ({readingStatus, title}){
+                 console.log("Has " + title + " been read? ")
+        console.log(readingStatus)
+    })
+
