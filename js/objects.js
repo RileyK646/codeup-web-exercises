@@ -71,6 +71,7 @@
     console.log(shoppers[1]);
 */
 /*
+function hebOffer(shoppers)
     shoppers.forEach(function ({name,amount}) {
         console.log(name + "'s total was $" + amount)
                 if (amount > 200) {
@@ -164,11 +165,11 @@
      *      ---
      *      ...
      */
-    books.forEach(function ({title,author}, index) {
+    books.forEach(function (book, index) {
             console.log("Book #" + (index + 1));
 
-            console.log("Title: " +title)
-            console.log("Author: " + author.firstName + " " + author.lastName );
+            console.log("Title: " +book.title)
+            console.log("Author: " + book.author.firstName + " " + book.author.lastName );
             console.log("------------------")
 
 
