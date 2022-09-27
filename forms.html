@@ -5,34 +5,43 @@
     <title>Register With Us</title>
 </head>
 <body>
-<form method="POST" action="https://request-inspector.glitch.me/">
-        <label for="email">Email</label>
-        <input id="email" type="email" name="Email" placeholder="Please enter your email">
-        <input type="password" name="password" placeholder="Please enter password">
+<form method="GET" action="https://request-inspector.glitch.me/">
+    <h4> Enter your login!</h4>
+        <label for="email">
+            Email<input id="email" type="email" name="Email" placeholder="Please enter your email">
+        </label>
+    <label for="password">
+       Password <input id="password" type="password" name="password" placeholder="Please enter password">
+    </label>
     <br>
-    <textarea name="Bio"> </textarea> <br>
+    <h4>Enter any bio information below!</h4>
+    <textarea name="Bio">Please enter Bio information </textarea>
+        <br>
+    <h4>How did you hear about us?</h4>
     <label for="option1">
-        Billboard <input id=option1 type="radio" name="hdyhabu1" value="Billboard">
+        Billboard <input id=option1 type="radio" name="hdyhabu" value="Billboard">
     </label>
     <br>
                 <label for="option2">
-                    Radio Advertisment<input id="option2" type="radio" name="hdyhabu2" value="Radio Advertisement">
+                    Radio Advertisment<input id="option2" type="radio" name="hdyhabu" value="Radio Advertisement">
                  </label>
     <br>
                     <label for="option3">
-                        Internet Advertisement <input id="option3" type="radio" name="hdyhabu3" value="Internet Advertisement">
+                        Internet Advertisement <input id="option3" type="radio" name="hdyhabu" value="Internet Advertisement">
                     </label>
     <br>
                         <label for="option4">
-                          Other  <input id="option4" type="radio" name="hdyhabu4" value="other">
+                          Other  <input id="option4" type="radio" name="hdyhabu" value="other">
                         </label><br>
 <br>
+    <h4>What website are you using?</h3>
     <select name="web_browsers">
         <option value="chrome">Chrome</option>
         <option value="safari">Safari</option>
         <option value="firefox">Firefox</option>
         <option value="ie">Internet Explore</option>
     </select>
+    <br>
     <input type="submit">
     <!--
     Create a "How did you hear about us" section that contains radio buttons. The values should be "billboard", "radio advertisement", "internet advertisement", and "other". Only one of the values should be allowed to be selected at a time.
