@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="finished flexbox">
-      <change afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media-queries.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexbox-cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexbox-cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox-cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox-cards.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1663094878745" duration="8873000" />
       <workItem from="1663353695637" duration="43856000" />
       <workItem from="1663948169648" duration="21309000" />
-      <workItem from="1664822780779" duration="8174000" />
+      <workItem from="1664822780779" duration="9214000" />
     </task>
     <task id="LOCAL-00001" summary="finished flexbox">
       <created>1664893800146</created>
