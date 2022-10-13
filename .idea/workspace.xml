@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="finished flexbox">
+      <change afterPath="$PROJECT_DIR$/bootstrap_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flexbox-nav-exercise.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/defuse-the-bom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox-nav-exercise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/flexbox-cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexbox-cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flexbox-cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox-cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media-queries.html" beforeDir="false" afterPath="$PROJECT_DIR$/media-queries.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
       <list>
         <option value="package.json" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,16 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -70,7 +75,9 @@
       <workItem from="1663094878745" duration="8873000" />
       <workItem from="1663353695637" duration="43856000" />
       <workItem from="1663948169648" duration="21309000" />
-      <workItem from="1664822780779" duration="9214000" />
+      <workItem from="1664822780779" duration="14574000" />
+      <workItem from="1665173998516" duration="954000" />
+      <workItem from="1665671702618" duration="1135000" />
     </task>
     <task id="LOCAL-00001" summary="finished flexbox">
       <created>1664893800146</created>
@@ -97,7 +104,20 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finished flexbox" />
     <option name="LAST_COMMIT_MESSAGE" value="finished flexbox" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/defuse-the-bom.html</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
