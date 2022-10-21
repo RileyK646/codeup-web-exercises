@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>National Park FAQ</title>
+</head>
+<body>
+<style>
+    .invisible {
+      visibility: hidden;
+    }
+</style>
+<dl>
+  <dt>Where is the park located?</dt>
+  <dd class="invisible">123 Main St, Generic land</dd>
+  <dt>What are park hours</dt>
+  <dd class="invisible"> 6am-9pm</dd>
+  <dt>Is there and admission fee</dt>
+  <dd class="invisible">No it's free!</dd>
+  <dt>Can I camp at the park?</dt>
+  <dd class="invisible">Yes the park a camping area!</dd>
+  <dt>Do i have to pay to camp?</dt>
+  <dd class="invisible">There is a $25 camping fee</dd>
+  <dt>Have there been any animal attacks?</dt>
+  <dd class="invisible">No animal attacks have been taken place at the park</dd>
+  <dt>Are there any restrooms?</dt>
+  <dd class="invisible">There are plenty of restrooms around the park</dd>
+  <dt>Can I smoke at the park</dt>
+  <dd class="invisible">We have designated areas for smoking. Please only smoke there</dd>
+  <dt>Do you have any equipment i can rent</dt>
+  <dd class="invisible">We do have equipment for rental at the main office</dd>
+  <dt>Can I pet the baby bear?</dt>
+  <dd class="invisible">DO. NOT. PET. THE. BABY. BEAR</dd>
+</dl>
+<div>
+  <button class="answerview">View answers</button>
+</div>
+<script src="js/jquery.js"></script>
+<script>
+  function showAnswers() {
+    $('.answerview').click(function(event) {
+      $('dd').toggleClass('invisible');
+
+    });
+  };
+  function highlightDT() {
+    $('dt').click(function () {
+      $('dt').css('background-color', 'lightblue')
+    })
+  }
+
+   document.addEventListener("click", showAnswers);
+
+</script>
+</body>
+</html>

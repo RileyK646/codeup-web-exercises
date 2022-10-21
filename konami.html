@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Konami Code </title>
+</head>
+<body>
+<h1>Konami Code</h1>
+<div id="KonamiSecret">
+
+</div>
+<script src="/js/jquery.js"></script>
+
+
+<script>
+  "use strict";
+  let fresh = 0;
+  function goKonamiCode() {
+    alert("You added 30 lives!")
+        const KCdisplay =document.createElement("h1")
+        const KCmessage = document.createTextNode("Congrats, you're old!")
+        KCdisplay.appendChild(KCmessage)
+          const KC = document.getElementById("KonamiSecret")
+              document.body.insertBefore(KCdisplay,KC)
+  }
+  function test() {
+    $('body').css('background-color', 'darkred')
+    $('h1').css("color", "green")
+  }
+
+  const KONAMI_CODE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
+  document.addEventListener('keydown', (e) => {
+    fresh = (e.keyCode == KONAMI_CODE[fresh]) ? fresh + 1 : 0;
+    if (fresh == KONAMI_CODE.length) goKonamiCode(), test();
+  });
+
+
+
+  $(document).keyup(function(event){
+    console.log(event.keyCode);
+  });
+
+</script>
+</body>
+</html>

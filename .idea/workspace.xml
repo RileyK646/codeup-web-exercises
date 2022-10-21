@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="finished flexbox">
+      <change afterPath="$PROJECT_DIR$/jquery_faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/konami.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery_exercises.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery_exercises.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/jquery_exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery_exercise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
       <list>
         <option value="package.json" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,7 +83,7 @@
       <workItem from="1664822780779" duration="14574000" />
       <workItem from="1665173998516" duration="954000" />
       <workItem from="1665671702618" duration="11055000" />
-      <workItem from="1666211863826" duration="9300000" />
+      <workItem from="1666211863826" duration="17998000" />
     </task>
     <task id="LOCAL-00001" summary="finished flexbox">
       <created>1664893800146</created>
