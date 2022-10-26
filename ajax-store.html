@@ -24,14 +24,17 @@
 <script>
 (function() {
     "use strict";
+    let innerHTML = ""
     // TODO: Create an AJAX GET request for the file under data/inventory.json
-        $.ajax("data/inventory.json")
+        $.ajax("../data/inventory.json")
             .done(function(data, status) {
-                console.log(status)
+                console.log(status);
 
                 data.forEach(function (inventory){
-                    innerHTML += `<p>${inventory.title} : by ${inventory.quantity};}</p>`
+                    innerHTML += `<p>${inventory.title}  ${inventory.quantity}  ${inventory.price}  ${inventory.categories}</p>`
                 })
+
+                $("#insertProducts").html(innerHTML)
             })
 
 
