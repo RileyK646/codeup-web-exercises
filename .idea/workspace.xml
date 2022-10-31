@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="finished flexbox">
+      <change afterPath="$PROJECT_DIR$/js/es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/map-filter-reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map-filter-exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map_filter_reduce_followAlong.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/weatherproject.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/weatherproject.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/weathermapYT.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/weathermapYT.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather_map.html" afterDir="false" />
     </list>
@@ -16,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,6 +61,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/HTML" />
     </key>
@@ -84,7 +88,7 @@
       <workItem from="1664822780779" duration="14574000" />
       <workItem from="1665173998516" duration="954000" />
       <workItem from="1665671702618" duration="11055000" />
-      <workItem from="1666211863826" duration="38427000" />
+      <workItem from="1666211863826" duration="52884000" />
     </task>
     <task id="LOCAL-00001" summary="finished flexbox">
       <created>1664893800146</created>
