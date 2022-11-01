@@ -47,12 +47,14 @@ console.log(emails);
 let totalyears = users.reduce((total, person) => {
     return total + person.yearsOfExperience
 }, 0)
-console.log(totalyears);
+console.log(totalyears / users.length);
 
 let longestemail = users.reduce((x,e) => x.email.length > e.email.length ? x : e).email
 console.log(longestemail);
+
 let namearray = users.reduce((acc, ele) => {
     console.log(`current is ${acc} and current value is ${ele}`)
-    return acc + ele.name
+    let punc = ", "
+    return acc + ele.name + punc
 } , ' ')
 console.log(namearray);
