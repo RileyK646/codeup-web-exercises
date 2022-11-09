@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c506da1c-9556-4448-9e4b-d0b73fa2cd42" name="Changes" comment="finished flexbox">
-      <change afterPath="$PROJECT_DIR$/css/twitter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/promises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/promises-exercise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twitter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapbox_maps_api.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/es6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -90,7 +86,7 @@
       <workItem from="1666211863826" duration="59234000" />
       <workItem from="1667524026323" duration="1180000" />
       <workItem from="1667571840310" duration="243000" />
-      <workItem from="1667852538258" duration="2904000" />
+      <workItem from="1667852538258" duration="7224000" />
     </task>
     <task id="LOCAL-00001" summary="finished flexbox">
       <created>1664893800146</created>
